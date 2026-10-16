@@ -1,0 +1,37 @@
+{
+  "name": "facilitate-fitness",
+  "author": "Nathan Marchant",
+  "version": "2.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "Facilitate Fitness 2",
+    "uuid": "1348d9c5-5b36-4f68-9377-0a7166d4512d",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable",
+      "health"
+    ],
+    "messageKeys": [
+      "Theme",
+      "Goal",
+      "Units"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
